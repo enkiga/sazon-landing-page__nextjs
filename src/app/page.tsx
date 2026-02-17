@@ -1,9 +1,30 @@
-import Image from "next/image";
+import {
+  CategorySection,
+  FeedbackSection,
+  FindUsSection,
+  FooterSection,
+  HeroSection,
+  ImageLibrarySection,
+  MenuSection,
+  NavSection,
+  PromotionSection,
+  StorySection,
+} from "@/components/sections";
+
 
 export default function Home() {
   return (
-    <div className="">
-      SAZON RESTAURANT COMING SOON
-    </div>
+    <section>
+      <NavSection />
+      <HeroSection />
+      <StorySection />
+      <CategorySection />
+      <MenuSection />
+      <PromotionSection />
+      <ImageLibrarySection />
+      <FeedbackSection />
+      <FindUsSection />
+      <FooterSection />
+    </section>
   );
 }
