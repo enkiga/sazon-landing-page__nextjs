@@ -8,7 +8,7 @@ type Props = {
 
 const SectionWrapper = ({ children, className }: Props) => {
   return (
-    <section className={cn('container mx-auto', className)}>{children}</section>
+    <section className={cn('container mx-auto px-8 md:px-10 lg:px-6', className)}>{children}</section>
   )
 }
 

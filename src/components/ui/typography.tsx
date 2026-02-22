@@ -42,14 +42,13 @@ function Typography({
   const Comp: ElementType = asChild
     ? Slot.Root
     : defaultElementByVariant[resolvedVariant];
+  const variantClasses = typographyVariants({ variant: resolvedVariant });
 
   return (
     <Comp
       data-slot="typography"
       data-variant={resolvedVariant}
-      className={cn(
-        typographyVariants({ variant: resolvedVariant, className }),
-      )}
+      className={cn(variantClasses, className)}
       {...props}
     />
   );

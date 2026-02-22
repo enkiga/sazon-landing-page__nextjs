@@ -1,5 +1,4 @@
 import {
-  CategorySection,
   FeedbackSection,
   FindUsSection,
   FooterSection,
@@ -18,7 +17,6 @@ export default function Home() {
       <NavSection />
       <HeroSection />
       <StorySection />
-      <CategorySection />
       <MenuSection />
       <PromotionSection />
       <ImageLibrarySection />
