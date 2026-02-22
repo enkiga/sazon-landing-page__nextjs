@@ -1,12 +1,10 @@
 import Image from "next/image";
-import React from "react";
 import SectionWrapper from "../reusables/section-wrapper";
 import { Typography } from "../ui/typography";
 import { Button } from "../ui/button";
 
-type Props = {};
 
-const HeroSection = (props: Props) => {
+const HeroSection = () => {
   return (
     <section className="relative w-full h-[90vh] pt-8">
       <div className="absolute inset-0 bg-linear-to-b from-black/40 to-black/90" />

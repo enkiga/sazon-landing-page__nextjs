@@ -1,10 +1,7 @@
-import React from 'react'
 import SectionWrapper from '../reusables/section-wrapper'
 import { Typography } from '../ui/typography'
 
-type Props = {}
-
-const FooterSection = (props: Props) => {
+const FooterSection = () => {
   return (
     <div className="bg-foreground text-background">
       <SectionWrapper className="py-16 flex flex-col gap-6">

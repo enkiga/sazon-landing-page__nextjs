@@ -1,12 +1,9 @@
-import React from 'react'
 import SectionWrapper from '../reusables/section-wrapper'
 import { Typography } from '../ui/typography'
 import { Button } from '../ui/button'
 import { AlignJustify } from 'lucide-react'
 
-type Props = {}
-
-const NavSection = (props: Props) => {
+const NavSection = () => {
   return (
     <div className="fixed z-1000 top-0 left-0 right-0 bg-background backdrop-blur-md">
       <SectionWrapper className="py-4 flex items-center justify-between">

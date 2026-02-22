@@ -1,4 +1,3 @@
-import React from "react";
 import SectionWrapper from "../reusables/section-wrapper";
 import { Typography } from "../ui/typography";
 import { Flame, Leaf, SlidersHorizontal } from "lucide-react";
@@ -28,9 +27,7 @@ const dummyPointers = [
   },
 ];
 
-type Props = {};
-
-const StorySection = (props: Props) => {
+const StorySection = () => {
   return (
     <div className="bg-accent/10 overflow-x-hidden">
       <SectionWrapper className="py-16 flex flex-col lg:flex-row lg:items-start gap-12">

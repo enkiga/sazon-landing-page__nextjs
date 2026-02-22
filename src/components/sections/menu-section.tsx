@@ -1,4 +1,3 @@
-import React from "react";
 import SectionWrapper from "../reusables/section-wrapper";
 import { Typography } from "../ui/typography";
 import { ArrowRight } from "lucide-react";
@@ -38,9 +37,7 @@ const dummyMenuItems = [
   },
 ];
 
-type Props = {};
-
-const MenuSection = (props: Props) => {
+const MenuSection = () => {
   return (
     <SectionWrapper className="py-16 flex flex-col gap-12">
       <div className="flex flex-col lg:flex-row lg:items-start justify-between">
