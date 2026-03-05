@@ -15,7 +15,7 @@
     "format": "biome format --write"
   },
   "dependencies": {
-    "@opennextjs/cloudflare": "^1.16.5",
+    "@opennextjs/cloudflare": "^1.17.1",
     "@sanity/image-url": "^1.2.0",
     "@sanity/vision": "^4.22.0",
     "class-variance-authority": "^0.7.1",
